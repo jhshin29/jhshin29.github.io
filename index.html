@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momenttum</title>
+    <script src="https://kit.fontawesome.com/e0f4b7249d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="clock.js" defer></script>
+    <script src="todo.js" defer></script>
+    <script src="weather.js" defer></script>
+    <script src="greeting.js" defer></script>
+    <script src="bg.js" defer></script>
+</head>
+<body class="body">
+    <div class="weather">
+        <div class="weather-up">
+            <span class="js-weather"></span>
+            <i class="fas fa-cloud-sun"></i>
+        </div>
+        <span class="js-place"></span>
+    </div>
+    <div class="main-screen">
+        <div class="js-clock">
+            <h1 class="clock"></h1>
+        </div>
+        <form class="js-form form">
+            <input class="js-input" type="text" placeholder="What is your name?">
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="toDoForm">
+            <input type="text" placeholder="What to do?">
+        </form>
+        <ul class="toDoList"></ul>
+    </div>
+</body>
+</html>
